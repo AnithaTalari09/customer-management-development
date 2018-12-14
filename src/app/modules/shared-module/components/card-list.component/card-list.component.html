@@ -1,0 +1,21 @@
+<div class="parent row">
+    <div class="column" *ngFor="let item of listData">
+        <card-item [imgSrc]="item.imgUrl">
+            <ng-template templateDef="header">
+                <label>{{item.header.name}}</label>
+            </ng-template>
+            <ng-template templateDef="description">
+                <p>
+                    Very volatile customer. Rarely buys anything
+                </p>
+                <a mat-button (click)="moreDetailsClicked(item)">
+                    More Details
+                    <fa-icon [icon]="moreDetailsIcon" class="icon"></fa-icon>
+                </a>
+            </ng-template>
+            <ng-template templateDef="footer">
+
+            </ng-template>
+        </card-item>
+    </div>
+</div>

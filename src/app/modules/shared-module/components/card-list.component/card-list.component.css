@@ -1,0 +1,27 @@
+    /* .parent {
+        height: 100%;
+        position: absolute;
+    } */
+    
+    .column {
+        float: left;
+        padding: 10px;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+    }
+    
+     ::ng-deep .mat-card {
+        padding: 10px;
+    }
+    
+    .icon {
+        margin-left: 5px
+    }
+    
+    label {
+        font-weight: 600
+    }

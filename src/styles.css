@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+
+form input.ng-invalid.ng-touched {
+    border: 2px solid red !important;
+    display: block;
+    border-radius: 4px
+}
+
+form input.ng-invalid.ng-touched:focus {
+    box-shadow: none;
+}
+
+.validation-error {
+    font-size: 12px;
+    color: red;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+.btn-primary {
+    background-color: #0074d9 !important;
+    border-color: #0074d9 !important;
+}
+
+.ui-paginator {
+    background-color: white !important;
+    border: none !important
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.black-overlay {
+    position: fixed !important
+}
+
+.ui-sidebar {
+    overflow-y: scroll !important;
+}
+
+.mapboxgl-map {
+    border-radius: 10px !important
+}
+
+.underline-button {
+    text-decoration: underline !important;
+    cursor: pointer;
+    color: #005cbf !important;
+    display: inline-block;
+    font-weight: 400 !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}

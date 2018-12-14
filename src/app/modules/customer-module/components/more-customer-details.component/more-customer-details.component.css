@@ -1,0 +1,75 @@
+.left-panel {
+    padding: 25px 10px 75px 10px;
+}
+
+.right-panel {
+    padding: 50px 10px 10px 10px
+}
+
+.customer-name {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 24px
+}
+
+.customer-img {
+    width: 180px;
+    height: 180px;
+    background-color: #e1e1e1
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ababab;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px
+}
+
+.form-labels {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.form-value {
+    margin-top: 20px
+}
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.map-container {
+    padding: 0 40px 0 40px
+}
+
+.map {
+    width: 100%;
+    height: 200px;
+}
+
+.cancel-btn:hover {
+    text-decoration: underline !important;
+}
+
+.cancel-btn {
+    color: #007ad9 !important;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.footer-controls {
+    margin-top: 20px
+}

@@ -1,0 +1,18 @@
+<div class="custom-box">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                <div>
+                    <ng-container *ngTemplateOutlet="headerTemplate"></ng-container>
+                </div>
+            </mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="imgSrc" alt="Male" *ngIf="imgSrc">
+        <mat-card-content>
+            <ng-container *ngTemplateOutlet="descriptionTemplate"></ng-container>
+        </mat-card-content>
+        <mat-card-footer>
+            <ng-container *ngTemplateOutlet="footerTemplate"></ng-container>
+        </mat-card-footer>
+    </mat-card>
+</div>
